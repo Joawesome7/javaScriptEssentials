@@ -49,3 +49,17 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status: ", authenticationStatus);
+
+let user = "Employee";
+
+if (user === "Employee")
+    console.log("Congrats you have access to Dietary Services!");
+
+else if (user === "Enrolled Member")
+    console.log("Congrats you have access to both Dietary Services and a One-on-One Interactive with the a dietician!");
+
+else if (user === "Subscriber")
+    console.log("You have a partial access to facilitate Dietary services only");
+
+else
+    console.log("Enroll or subscribe to avail this service.");
